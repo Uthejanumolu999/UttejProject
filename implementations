@@ -1,0 +1,26 @@
+#include "structures.h"
+
+void addData()
+{
+	school s = school();
+	s.setNumberofCourses(10);
+	s.setNumberofLectureHalls(3);
+	
+	//the class
+	classs  c= classs("first_year");
+	c.setNumberofLessons(6);
+	c.setNumberofPupils(67);
+	
+	hall h1 = hall("sagini");
+	h1.setMaxAccomondation(40);
+	
+	hall h2 = hall("pavillion");
+	h2.setMaxAccomondation(250);
+	
+	hall h3 = hall("nyayo");
+	h3.setMaxAccomondation(90);
+	
+	timetable t = timetable();
+	
+	 
+}
